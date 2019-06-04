@@ -53,7 +53,7 @@ let newGreeting = function(name)  {
 //Create an array called groceries with the values
 //"apples", "milk", "eggs", "bread"
 
-//Code Here
+const groceries = ["apples", "milk", "eggs", "bread"]
 
 //////////////////PROBLEM 9////////////////////
 
@@ -62,12 +62,17 @@ let newGreeting = function(name)  {
 //name (a string), color (a string), age (a number),
 //and goodBoy (a boolean).
 
-//Code Here
+const dog = {
+  name: "Lily",
+  color: "White",
+  age: 1,
+  goodBoy: true
+}
 
 //...access the dog's name from the object and assign it to a
 //variable called devMountainClassPet.
 
-//Code Here
+const devMountainClassPet = dog.name
 
 //////////////////PROBLEM 10////////////////////
 
@@ -78,7 +83,17 @@ let newGreeting = function(name)  {
 // If the name parameter is anything else, return 'Cool name, NAMEPARAM'
 // with NAMEPARAM being the name parameter being passed in
 
-// Code here
+function nameCheck(name){
+  if (name == 'Steven'){
+    return 'What is up Steven?'
+  }
+  else if (name == 'Bryan'){
+    return 'Hey Bryan!'
+  }
+  else{
+    return `Cool name, ${name}`
+  }
+}
 
 //////////////////PROBLEM 11////////////////////
 
