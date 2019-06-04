@@ -2,13 +2,13 @@
 
 //Create a variable called myName that is a string data type
 
-//Code here
+const myName = 'Juan'
 
 //////////////////PROBLEM 2////////////////////
 
 //Create a variable called myAge that is a number data type
 
-//Code here
+const myAge = 25
 
 //////////////////PROBLEM 3////////////////////
 
